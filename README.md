@@ -27,7 +27,7 @@ This can be a huge time saver as other frameworks often require you to hide the 
 
 
 ## Installation
-Simply copy and paste the code into your stylesheet, or link to it in the head tag of the webpage:
+Simply copy and paste the code into your stylesheet. Or, link to it in the head tag of the webpage:
 
 `<link rel="stylesheet" type="text/css" href="ghost.css">`
 
