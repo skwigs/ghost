@@ -3,41 +3,41 @@
 /* Author: Tom Konie
 /* License: MIT
 /*
-/* Screen Breakpoints (Based On Bootstrap 4):
-/* xs ( < 575px )
-/* sm ( 576px < 767px ) - Small devices (landscape phones, 576px and up)
-/* md ( 768px < 991px ) - Medium devices (tablets, 768px and up)
-/* lg ( 992px < 1199px ) - Large devices (desktops, 992px and up)
+/* Screen Breakpoints (Based On Bootstrap 4 Media Queries):
+/* xs ( < 575.98px )
+/* sm ( 576px < 767.98px ) - Small devices (landscape phones, 576px and up)
+/* md ( 768px < 991.98px ) - Medium devices (tablets, 768px and up)
+/* lg ( 992px < 1199.98px ) - Large devices (desktops, 992px and up)
 /* xl ( > 1200px ) - Extra large devices (large desktops, 1200px and up)
 /********************************/
 
 /* Display element based on the screen size(s) where you want to HIDE it. */
 .ghost_hide-all { display: none !important; }
-@media only screen and (max-width: 575px) {.ghost_hide-xs-only { display: none !important; }}
-@media only screen and (min-width: 576px) and (max-width: 767px) {.ghost_hide-sm-only { display: none !important; }}
-@media only screen and (max-width: 767px) {.ghost_hide-sm-and-down { display: none !important; }}
+@media only screen and (max-width: 575.98px) {.ghost_hide-xs-only { display: none !important; }}
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {.ghost_hide-sm-only { display: none !important; }}
+@media only screen and (max-width: 767.98px) {.ghost_hide-sm-and-down { display: none !important; }}
 @media only screen and (min-width: 576px) {.ghost_hide-sm-and-up { display: none !important; }}
-@media only screen and (min-width: 768px) and (max-width: 991px) {.ghost_hide-md-only { display: none !important; }}
-@media only screen and (max-width: 991px) {.ghost_hide-md-and-down { display: none !important; }}
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {.ghost_hide-md-only { display: none !important; }}
+@media only screen and (max-width: 991.98px) {.ghost_hide-md-and-down { display: none !important; }}
 @media only screen and (min-width: 768px) {.ghost_hide-md-and-up { display: none !important; }}
-@media only screen and (min-width: 992px) and (max-width: 1199px) {.ghost_hide-lg-only { display: none !important; }}
-@media only screen and (max-width: 1199px) {.ghost_hide-lg-and-down { display: none !important; }}
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {.ghost_hide-lg-only { display: none !important; }}
+@media only screen and (max-width: 1199.98px) {.ghost_hide-lg-and-down { display: none !important; }}
 @media only screen and (min-width: 992px) {.ghost_hide-lg-and-up { display: none !important; }}
 @media only screen and (min-width: 1200px) {.ghost_hide-xl-only { display: none !important; }}
 /* Display element based on the screen size(s) where you want to SHOW it. */
 .ghost_show-all { display: inherit !important; }
 @media only screen and (min-width: 576px) {.ghost_show-xs-only { display: none !important; }}
 @media only screen and (min-width: 768px) {.ghost_show-sm-and-down { display: none !important; }}
-@media only screen and (max-width: 575px) {.ghost_show-sm-and-up { display: none !important; }}
+@media only screen and (max-width: 575.98px) {.ghost_show-sm-and-up { display: none !important; }}
 @media only screen and (min-width: 768px) {.ghost_show-sm-only { display: none !important; }}
-@media only screen and (max-width: 575px) {.ghost_show-sm-only { display: none !important; }}
+@media only screen and (max-width: 575.98px) {.ghost_show-sm-only { display: none !important; }}
 @media only screen and (min-width: 992px) {.ghost_show-md-and-down { display: none !important; }}
-@media only screen and (max-width: 767px) {.ghost_show-md-and-up { display: none !important; }}
+@media only screen and (max-width: 767.98px) {.ghost_show-md-and-up { display: none !important; }}
 @media only screen and (min-width: 992px) {.ghost_show-md-only { display: none !important; }}
-@media only screen and (max-width: 767px) {.ghost_show-md-only { display: none !important; }}
+@media only screen and (max-width: 767.98px) {.ghost_show-md-only { display: none !important; }}
 @media only screen and (min-width: 1200px) {.ghost_show-lg-and-down { display: none !important; }}
-@media only screen and (max-width: 991px) {.ghost_show-lg-and-up { display: none !important; }}
+@media only screen and (max-width: 991.98px) {.ghost_show-lg-and-up { display: none !important; }}
 @media only screen and (min-width: 1200px) {.ghost_show-lg-only { display: none !important; }}
-@media only screen and (max-width: 991px) {.ghost_show-lg-only { display: none !important; }}
-@media only screen and (max-width: 1199px) {.ghost_show-xl-only { display: none !important; }}
+@media only screen and (max-width: 991.98px) {.ghost_show-lg-only { display: none !important; }}
+@media only screen and (max-width: 1199.98px) {.ghost_show-xl-only { display: none !important; }}
 /* END: GHOST RESPONSIVE DISPLAY HELPER */
