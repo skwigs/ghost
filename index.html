@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="icon" type="image/png" href="demo/favicon.png" />
+    <title>Ghost: Responsive Design Helper</title>
+    <link rel="stylesheet" href="demo/demo.css">
+    <link rel="stylesheet" type="text/css" href="ghost.css">
+  </head>
+  <body>
+
+    <!-- Introduce and explain how to use the demo -->
+    <div>
+      <h1>Ghost: Responsive Design Helper</h1>
+      <p>Change the browser's width to see how elements are displayed at different screen sizes.</p>
+    </div>
+
+    <!-- Dynamically show the current size and width of the browser window -->
+    <div>
+      <p>
+        <strong>Screen Size: </strong><span id="demo-size"></span><br />
+        <strong>Screen Width: </strong><span id="demo-width"></span>
+      </p>
+    </div>
+
+    <!-- Toggle all elements on or off for training purposes. -->
+    <form id="behaviorToggle">
+        <input id="behaviorDefault" type="radio" name="behavior" value="default" checked>
+        <label for"behaviorDefault">Default Behavior</label>
+
+        <input id="behaviorShowAll" type="radio" name="behavior" value="showAll">
+        <label for"behaviorShowAll">Show All</label>
+    </form>
+
+    <!-- Display full width boxes illustrating all potential Ghost class use cases -->
+    <div><p>Allows an element to be shown on all screen sizes, except the one(s) where you want to HIDE it...</p></div>
+    <div class="box color1 ghost_hide-all"><p>ghost_hide-all</p></div>
+    <div class="box color2 ghost_hide-xs-only"><p>ghost_hide-xs-only</p></div>
+    <div class="box color3 ghost_hide-sm-only"><p>ghost_hide-sm-only</p></div>
+    <div class="box color3 ghost_hide-sm-and-up"><p>ghost_hide-sm-and-up</p></div>
+    <div class="box color3 ghost_hide-sm-and-down"><p>ghost_hide-sm-and-down</p></div>
+    <div class="box color4 ghost_hide-md-only"><p>ghost_hide-md-only</p></div>
+    <div class="box color4 ghost_hide-md-and-up"><p>ghost_hide-md-and-up</p></div>
+    <div class="box color4 ghost_hide-md-and-down"><p>ghost_hide-md-and-down</p></div>
+    <div class="box color5 ghost_hide-lg-only"><p>ghost_hide-lg-only</p></div>
+    <div class="box color5 ghost_hide-lg-and-up"><p>ghost_hide-lg-and-up</p></div>
+    <div class="box color5 ghost_hide-lg-and-down"><p>ghost_hide-lg-and-down</p></div>
+    <div class="box color6 ghost_hide-xl-only"><p>ghost_hide-xl-only</p></div>
+
+    <div><p>Hides an element on all screen sizes, except the one(s) where you want to SHOW it:</p></div>
+    <div class="box color1 ghost_show-all"><p>ghost_show-all</p></div>
+    <div class="box color2 ghost_show-xs-only"><p>ghost_show-xs-only</p></div>
+    <div class="box color3 ghost_show-sm-only"><p>ghost_show-sm-only</p></div>
+    <div class="box color3 ghost_show-sm-and-up"><p>ghost_show-sm-and-up</p></div>
+    <div class="box color3 ghost_show-sm-and-down"><p>ghost_show-sm-and-down</p></div>
+    <div class="box color4 ghost_show-md-only"><p>ghost_show-md-only</p></div>
+    <div class="box color4 ghost_show-md-and-up"><p>ghost_show-md-and-up</p></div>
+    <div class="box color4 ghost_show-md-and-down"><p>ghost_show-md-and-down</p></div>
+    <div class="box color5 ghost_show-lg-only"><p>ghost_show-lg-only</p></div>
+    <div class="box color5 ghost_show-lg-and-up"><p>ghost_show-lg-and-up</p></div>
+    <div class="box color5 ghost_show-lg-and-down"><p>ghost_show-lg-and-down</p></div>
+    <div class="box color6 ghost_show-xl-only"><p>ghost_show-xl-only</p></div>
+
+    <div><p>NOTE: The 'ghost_hide-all' div appears in the dom tree but is hidden on all screen sizes.</p></div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="demo/demo.js"></script>
+  </body>
+</html>
