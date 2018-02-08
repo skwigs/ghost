@@ -1,4 +1,4 @@
-# Ghost - Responsive Display Helper
+# Ghost - Responsive Design Helper
 Manage the display of elements across multiple screens easily with this drop-in css solution.
 
 
