@@ -103,6 +103,3 @@ The following are areas of potential improvement:
 
 ## Open Source
 This project is open source under the [MIT License](https://github.com/skwigs/ghost/blob/master/LICENSE). Feedback and pull requests welcome.
-
-
-## Have Fun!
