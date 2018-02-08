@@ -23,7 +23,7 @@ Then, you can add the second image to a div that SHOWS on small and extra small 
 
 `ghost_show-sm-and-down`
 
-This can be a huge time saver as other frameworks often require you to hide the element on each screen size individually... not to mention the clutter that is created by adding so many classes to an element.
+This can be a huge time saver as other frameworks often require you to hide the element on each screen size individually... not to mention the clutter that is created by adding too many classes to an element.
 
 
 ## Installation
