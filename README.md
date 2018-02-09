@@ -1,4 +1,4 @@
-# Ghost - Responsive Design Helper
+# Ghost - Responsive Display Helper
 Manage the display of elements across multiple screens easily with this drop-in css solution.
 
 
@@ -90,9 +90,11 @@ Two additional untility classes are provided that are particularly useful during
 
 
 ## Notes
-Hiding elements is achieved by applying the css property `display:none !important;` via the respective classes. If for some reason you need to override this property, such as toggling visibility as the radio button behavior illustrated in the included demo, you have several options and may want to start with this [Stack Overflow](https://stackoverflow.com/questions/11178673/how-to-override-important) article.
+1. Hiding elements is achieved by applying the css property `display:none !important;` via the respective classes. If for some reason you need to override this property, such as toggling visibility as the radio button behavior illustrated in the included demo, you have several options and may want to start with this [Stack Overflow](https://stackoverflow.com/questions/11178673/how-to-override-important) article.
 
-Showing elements does not specify or apply a display type. Instead it simply assumes the elements are already visible via other style rules. The only exeption is `ghost_show-all` which explicitly applies the css style `display:inherit !important;` directly to the element.
+2. Showing elements does not specify or apply a display type. Instead it simply assumes the elements are already visible via other style rules. The only exeption is `ghost_show-all` which explicitly applies the css style `display:inherit !important;` directly to the element.
+
+3. The demo above uses jQuery for radio button button functionality. However, jQuery is not required to use `ghost.css` styling.
 
 
 ## Roadmap
