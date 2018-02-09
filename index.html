@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <link rel="icon" type="image/png" href="demo/favicon.png" />
-    <title>Ghost: Responsive Design Helper</title>
+    <title>Ghost: Responsive Display Helper</title>
     <link rel="stylesheet" href="demo/demo.css">
     <link rel="stylesheet" type="text/css" href="ghost.css">
   </head>
@@ -12,14 +12,14 @@
     <!-- Introduce and explain how to use the demo -->
     <div>
       <h1>Ghost: Responsive Design Helper</h1>
-      <p>Change the browser's width to see how elements are displayed at different screen sizes.</p>
+      <p><strong>Instructions:</strong> Change the browser's width to see how elements are displayed at different screen sizes.</p>
     </div>
 
     <!-- Dynamically show the current size and width of the browser window -->
     <div>
       <p>
-        <strong>Screen Size: </strong><span id="demo-size"></span><br />
-        <strong>Screen Width: </strong><span id="demo-width"></span>
+        Screen Size: <span id="demo-size"></span><br />
+        Screen Width: <span id="demo-width"></span>
       </p>
     </div>
 
@@ -33,7 +33,7 @@
     </form>
 
     <!-- Display full width boxes illustrating all potential Ghost class use cases -->
-    <div><p>Allows an element to be shown on all screen sizes, except the one(s) where you want to HIDE it...</p></div>
+    <div><p>These classes show elements on all screen sizes, except the one(s) where you want to HIDE it...</p></div>
     <div class="box color1 ghost_hide-all"><p>ghost_hide-all</p></div>
     <div class="box color2 ghost_hide-xs-only"><p>ghost_hide-xs-only</p></div>
     <div class="box color3 ghost_hide-sm-only"><p>ghost_hide-sm-only</p></div>
@@ -61,7 +61,8 @@
     <div class="box color5 ghost_show-lg-and-down"><p>ghost_show-lg-and-down</p></div>
     <div class="box color6 ghost_show-xl-only"><p>ghost_show-xl-only</p></div>
 
-    <div><p>NOTE: The 'ghost_hide-all' div appears in the dom tree but is hidden on all screen sizes.</p></div>
+    <div><p><strong>Note:</strong> The 'ghost_hide-all' div appears in the dom tree but is hidden on all screen sizes.</p></div>
+    <div><p><strong>Source:</strong> Source code availabe at <a href="https://github.com/skwigs/ghost" target="_blank">https://github.com/skwigs/ghost</a>.</div>
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
